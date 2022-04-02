@@ -2,7 +2,7 @@ import streamlit as st
 import plotly.figure_factory as ff
 import numpy as np
 import plotly.express as px
-import cv2
+import cv2 as cv2
 import numpy as np
 import matplotlib.pyplot as plt
 import sympy as sym
