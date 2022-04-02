@@ -2,7 +2,7 @@ import streamlit as st
 import plotly.figure_factory as ff
 import numpy as np
 import plotly.express as px
-import cv2 as cv2
+import cv2 as cv
 import numpy as np
 import matplotlib.pyplot as plt
 import sympy as sym
@@ -43,10 +43,10 @@ path_S_c = "Series_close.png"
 path_P_o = "Parallel_open.png"
 path_P_c = "Parallel_close.png"
 # Using cv2.imread() method
-img_S1 = cv2.imread(path_S_o)
-img_S2 = cv2.imread(path_S_c)
-img_P1 = cv2.imread(path_P_o)
-img_P2 = cv2.imread(path_P_c)
+img_S1 = cv.imread(path_S_o)
+img_S2 = cv.imread(path_S_c)
+img_P1 = cv.imread(path_P_o)
+img_P2 = cv.imread(path_P_c)
 
 
 
